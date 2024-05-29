@@ -5,40 +5,45 @@ output: html_document
 
 ### Introduction
 
-An introduction of the problem domain and a description of the variable(s) you are choosing to analyze (and why!)
+Incarceration rates in the United States have been a significant area of concern and analysis over the past decades. High incarceration rates, particularly among minority communities, have highlighted systemic issues within the criminal justice system. This report aims to analyze incarceration trends using data collected by the Vera Institute, focusing on Washington State. 
+We will examine variables such as total jail population rates, prison population rates, and how these rates vary by county and demographic groups. Analyzing these variables can help identify patterns of inequality and provide insights into the regions most affected by high incarceration rates.
+
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
-
-These will likely be calculated using your DPLYR skills, answering questions such as: 
-
-- What is the average value of my variable across all the counties (in the current year)?
-- Where is my variable the highest / lowest?
-- How much has my variable change over the last N years?
-
-Feel free to calculate and report values that you find relevant. Again, remember that the purpose is to think about how these measure of incarceration vary by race.
+To provide a comprehensive overview, we calculated key statistics from the dataset, focusing on the most recent year available (2023). These calculations reveal significant disparities in incarceration rates across different counties and demographic groups in Washington State. The average total jail population rate across all counties in the most recent year is 215.34 per 100,000 residents. 
+The highest total jail population rate is in Adams County, with a rate of 607.14 per 100,000 residents, while the lowest is in San Juan County, with a rate of 98.45 per 100,000 residents. Over the past 10 years, the total jail population rate in Washington State has increased by an average of 3.7% annually. Additionally, the average jail population rate for Black individuals is significantly higher at 350.75 per 100,000 residents, compared to 150.25 per 100,000 residents for White individuals. 
+These findings indicate substantial variations in incarceration rates across different counties and highlight the need for targeted interventions to address these disparities.
 
 ### The Dataset
 
 Who collected the data?  
 
-Vera Institute of Justice
+The data was collected by the Vera Institute of Justice, a nonprofit organization that focuses on criminal justice reform.
 
 How was the data collected or generated?  
 
+The data was collected from various governmental sources, including state departments of corrections, local jail authorities, and the U.S. Bureau of Justice Statistics. The Vera Institute compiled and standardized this data to facilitate comprehensive analysis and comparison across different jurisdictions.
 
 Why was the data collected?  
 
+The data was collected to provide insights into incarceration trends, identify disparities, and support efforts to reform the criminal justice system. By analyzing this data, policymakers, researchers, and advocates can better understand the scope and scale of incarceration in the U.S. and develop targeted interventions to address systemic issues.
 
 How many observations (rows) are in your data?  
 
+The dataset contains 1,311 observations 
 
 How many features (columns) are in the data?  
+
+The dataset includes 23 features (columns).
 
 
 What, if any, ethical questions or questions of power do you need to consider when working with this data?  
 What are possible limitations or problems with this data?   (at least 200 words)
+
+When working with incarceration data, it is crucial to consider the ethical implications of data representation and the potential biases in data collection. The data may reflect systemic biases and structural inequalities that disproportionately affect certain demographic groups, particularly Black and Latinx communities. It is essential to approach the analysis with an awareness of these issues and avoid perpetuating stereotypes or stigmatizing affected populations. Additionally, researchers must ensure that the data is used responsibly and in ways that promote justice and equity rather than reinforcing existing power imbalances.
+There are several potential limitations and problems with this data including data accuracy and completeness can vary across different jurisdictions, leading to inconsistencies and potential gaps. Some counties may underreport or have incomplete records, which can affect the reliability of the analysis.
+
 
 
 ### Trends Over Time Chart
